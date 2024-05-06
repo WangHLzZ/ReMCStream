@@ -34,7 +34,7 @@
         micro_clu{1,5}=1; % label flg
         micro_clu{1,10}=1; %laeblType 1:from real, 0:from p_label
     elseif ex.reliable_plable~=-1
-        micro_clu{1,4}=-ex.reliable_plable;
+        micro_clu{1,4}=ex.reliable_plable;
         micro_clu{1,5}=1;
         micro_clu{1,10}=0;
     else
